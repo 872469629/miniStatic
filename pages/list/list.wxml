@@ -1,0 +1,107 @@
+<!--pages/list/list.wxml-->
+<view class='home-box2'>
+    <view class='home-box2-1'>
+      <text style='color:#6db9b5'>综合</text>
+      <text>销量</text>
+      <text>价格</text>
+    </view>
+
+    <view class='home-box2-2' bindtap='GoDetails'>
+      <image class='image' src='http://zq2.51wdxh.com/jt-img/sp.png'></image>
+      <view class='home-box'>
+        <view class='title-1'>
+          <text class='title'>军太岁光气垫BB霜</text>
+        </view>
+        <view class='con-1'>
+          <text class='con'>非常好用的气垫BB霜</text>
+        </view>
+        <view class='price-1'>
+          <text class='price'>1100元</text>
+        </view>
+
+        <view class='add-fx' bindtap='GoAdd'>
+          <text>成为分销商</text>
+        </view>
+      </view>
+    </view>
+
+     <view class='home-box2-2' bindtap='GoDetails'>
+      <image class='image' src='http://zq2.51wdxh.com/jt-img/sp.png'></image>
+      <view class='home-box'>
+        <view class='title-1'>
+          <text class='title'>军太岁光气垫BB霜</text>
+        </view>
+        <view class='con-1'>
+          <text class='con'>非常好用的气垫BB霜</text>
+        </view>
+        <view class='price-1'>
+          <text class='price'>1100元</text>
+        </view>
+
+        <view class='add-fx' bindtap='GoAdd'>
+          <text>成为分销商</text>
+        </view>
+      </view>
+    </view>
+
+
+     <view class='home-box2-2' bindtap='GoDetails'>
+      <image class='image' src='http://zq2.51wdxh.com/jt-img/sp.png'></image>
+      <view class='home-box'>
+        <view class='title-1'>
+          <text class='title'>军太岁光气垫BB霜</text>
+        </view>
+        <view class='con-1'>
+          <text class='con'>非常好用的气垫BB霜</text>
+        </view>
+        <view class='price-1'>
+          <text class='price'>1100元</text>
+        </view>
+
+        <view class='add-fx' bindtap='GoAdd'>
+          <text>成为分销商</text>
+        </view>
+      </view>
+    </view>
+
+
+     <view class='home-box2-2' bindtap='GoDetails'>
+      <image class='image' src='http://zq2.51wdxh.com/jt-img/sp.png'></image>
+      <view class='home-box'>
+        <view class='title-1'>
+          <text class='title'>军太岁光气垫BB霜</text>
+        </view>
+        <view class='con-1'>
+          <text class='con'>非常好用的气垫BB霜</text>
+        </view>
+        <view class='price-1'>
+          <text class='price'>1100元</text>
+        </view>
+
+        <view class='add-fx' bindtap='GoAdd'>
+          <text>成为分销商</text>
+        </view>
+      </view>
+    </view>
+
+
+     <view class='home-box2-2' bindtap='GoDetails'>
+      <image class='image' src='http://zq2.51wdxh.com/jt-img/sp.png'></image>
+      <view class='home-box'>
+        <view class='title-1'>
+          <text class='title'>军太岁光气垫BB霜</text>
+        </view>
+        <view class='con-1'>
+          <text class='con'>非常好用的气垫BB霜</text>
+        </view>
+        <view class='price-1'>
+          <text class='price'>1100元</text>
+        </view>
+
+        <view class='add-fx' bindtap='GoAdd'>
+          <text>成为分销商</text>
+        </view>
+      </view>
+    </view>
+
+  </view>

@@ -1,0 +1,257 @@
+<!--pages/time/time.wxml-->
+<view>
+  <view class='team-one'>
+    <text class='cj'>销售总成绩</text>
+    <text class='pr'>￥3000000.00</text>
+  </view>
+  <view class='team-two'>
+    <view class='one'>
+      <text class='left'>合伙人成员</text>
+      <view class='right'>
+        <text class="{{TeamIndex == 0 ?'on':''}}" data-index="0" bindtap='qh'>一级</text>
+        <text class="{{TeamIndex == 1 ?'on':''}}" data-index="1" bindtap='qh'>二级</text>
+        <text class="{{TeamIndex == 2 ?'on':''}}" data-index="2" bindtap='qh'>三级</text>
+      </view>
+    </view>
+    <view class='two'>
+      <view wx:if="{{TeamIndex == 0}}">
+        <view class='two-box'>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420445&di=72f6303ad399bd3164312736f2680688&imgtype=0&src=http%3A%2F%2Fimgtu.5011.net%2Fuploads%2Fcontent%2F20170413%2F3518801492051782.jpg'></image>
+            <text>爱你</text>
+
+          </view>
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420445&di=09b3572d13959289c69f17d79394461b&imgtype=0&src=http%3A%2F%2Fimg.wxcha.com%2Ffile%2F201710%2F24%2Fc40b6060c7.jpg%3Fdown'></image>
+            <text>爱你</text>
+
+          </view>
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420445&di=5bddce614d369e93e1c8636197713b1e&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh990%2Fimg201712090939250_info400X400.jpg'></image>
+            <text>不知道</text>
+
+          </view>
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=01a66a329dca9fe95f2e14dfcf3bc2aa&imgtype=0&src=http%3A%2F%2Fimg.wxcha.com%2Ffile%2F201805%2F04%2Fcd60bf0d03.jpg%3Fdown'></image>
+            <text>每紫</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=5099e46e7409776c6eb194705b372e53&imgtype=0&src=http%3A%2F%2Fimg.xiazaizhijia.com%2Fuploads%2F2018%2F0412%2F20180412030503332.jpg'></image>
+            <text>哥哥</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=d2134f25cdff00099954c2a41ee8bceb&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh970%2Fimg201709211115450_info300X300.jpg'></image>
+            <text>爱你嘛</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=52aa5966534aebb49c6ee3fcbed084bc&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh966%2Fimg201709181324050_info300X300.jpg'></image>
+            <text>爱你爸</text>
+
+          </view>
+
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420443&di=1ec38e4715c39b2c7d8fdaedf99985ff&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh971%2Fimg201709211620240_info300X300.jpg'></image>
+            <text>胡渣男</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=896163492,2746923745&fm=26&gp=0.jpg'></image>
+            <text>我是够</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420442&di=e931337cc3848a20618ec34ed00d9a49&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh971%2Fimg201709220915090_info300X300.jpg'></image>
+            <text>非主流</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599536873&di=90268b085b70fef876343a7b600c6e51&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1879903183%2C690517361%26fm%3D214%26gp%3D0.jpg'></image>
+            <text>biu</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420442&di=da76c5008ef9d05770728ac9561a9520&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh962%2Fimg201709131035100_info300X300.jpg'></image>
+            <text>bong</text>
+
+          </view>
+
+        </view>
+
+      </view>
+      <view wx:if="{{TeamIndex == 1}}">
+        <view class='two-box'>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420445&di=72f6303ad399bd3164312736f2680688&imgtype=0&src=http%3A%2F%2Fimgtu.5011.net%2Fuploads%2Fcontent%2F20170413%2F3518801492051782.jpg'></image>
+            <text>爱你</text>
+
+          </view>
+
+
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420445&di=5bddce614d369e93e1c8636197713b1e&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh990%2Fimg201712090939250_info400X400.jpg'></image>
+            <text>不知道</text>
+
+          </view>
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=01a66a329dca9fe95f2e14dfcf3bc2aa&imgtype=0&src=http%3A%2F%2Fimg.wxcha.com%2Ffile%2F201805%2F04%2Fcd60bf0d03.jpg%3Fdown'></image>
+            <text>每紫</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=5099e46e7409776c6eb194705b372e53&imgtype=0&src=http%3A%2F%2Fimg.xiazaizhijia.com%2Fuploads%2F2018%2F0412%2F20180412030503332.jpg'></image>
+            <text>哥哥</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=d2134f25cdff00099954c2a41ee8bceb&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh970%2Fimg201709211115450_info300X300.jpg'></image>
+            <text>爱你嘛</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=52aa5966534aebb49c6ee3fcbed084bc&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh966%2Fimg201709181324050_info300X300.jpg'></image>
+            <text>爱你爸</text>
+
+          </view>
+
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420443&di=1ec38e4715c39b2c7d8fdaedf99985ff&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh971%2Fimg201709211620240_info300X300.jpg'></image>
+            <text>胡渣男</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=896163492,2746923745&fm=26&gp=0.jpg'></image>
+            <text>我是够</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420442&di=e931337cc3848a20618ec34ed00d9a49&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh971%2Fimg201709220915090_info300X300.jpg'></image>
+            <text>非主流</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599536873&di=90268b085b70fef876343a7b600c6e51&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1879903183%2C690517361%26fm%3D214%26gp%3D0.jpg'></image>
+            <text>biu</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420442&di=da76c5008ef9d05770728ac9561a9520&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh962%2Fimg201709131035100_info300X300.jpg'></image>
+            <text>bong</text>
+
+          </view>
+
+        </view>
+
+      </view>
+      <view wx:if="{{TeamIndex == 2}}">
+        <view class='two-box'>
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420445&di=09b3572d13959289c69f17d79394461b&imgtype=0&src=http%3A%2F%2Fimg.wxcha.com%2Ffile%2F201710%2F24%2Fc40b6060c7.jpg%3Fdown'></image>
+            <text>爱你</text>
+
+          </view>
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420445&di=5bddce614d369e93e1c8636197713b1e&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh990%2Fimg201712090939250_info400X400.jpg'></image>
+            <text>不知道</text>
+
+          </view>
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=01a66a329dca9fe95f2e14dfcf3bc2aa&imgtype=0&src=http%3A%2F%2Fimg.wxcha.com%2Ffile%2F201805%2F04%2Fcd60bf0d03.jpg%3Fdown'></image>
+            <text>每紫</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=5099e46e7409776c6eb194705b372e53&imgtype=0&src=http%3A%2F%2Fimg.xiazaizhijia.com%2Fuploads%2F2018%2F0412%2F20180412030503332.jpg'></image>
+            <text>哥哥</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=d2134f25cdff00099954c2a41ee8bceb&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh970%2Fimg201709211115450_info300X300.jpg'></image>
+            <text>爱你嘛</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420444&di=52aa5966534aebb49c6ee3fcbed084bc&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh966%2Fimg201709181324050_info300X300.jpg'></image>
+            <text>爱你爸</text>
+
+          </view>
+
+
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420443&di=1ec38e4715c39b2c7d8fdaedf99985ff&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh971%2Fimg201709211620240_info300X300.jpg'></image>
+            <text>胡渣男</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=896163492,2746923745&fm=26&gp=0.jpg'></image>
+            <text>我是够</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420442&di=e931337cc3848a20618ec34ed00d9a49&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh971%2Fimg201709220915090_info300X300.jpg'></image>
+            <text>非主流</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599536873&di=90268b085b70fef876343a7b600c6e51&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1879903183%2C690517361%26fm%3D214%26gp%3D0.jpg'></image>
+            <text>biu</text>
+
+          </view>
+          <view class='two-box-box'>
+
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537599420442&di=da76c5008ef9d05770728ac9561a9520&imgtype=0&src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh1%2Fh962%2Fimg201709131035100_info300X300.jpg'></image>
+            <text>bong</text>
+
+          </view>
+
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>

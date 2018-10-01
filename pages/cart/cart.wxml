@@ -1,0 +1,45 @@
+<view class='cart'>
+  <view class='cart-box'>
+    <view class='cart-box-1'>
+      <view class='one-left'>
+        <icon class='icon-one' type='success' size='15'></icon>
+        <text>化妆品</text>
+      </view>
+      <view class='one-right'>
+        <image src='http://pdwov16b7.bkt.clouddn.com/%E5%88%A0%E9%99%A4%20%281%29.png'></image>
+      </view>
+    </view>
+    <view class='cart-box-2' bindtap='GoDetalis'>
+      <view class='left'>
+        <icon  type='success' size='15'></icon>
+        <image src='http://zq2.51wdxh.com/jt-img/sp.png'></image>
+      </view>
+
+      <view class='right'>
+        <text class='title'>军太水光气垫bb霜</text>
+        <text class='con'>非常好的水光气垫bb霜，值得推荐</text>
+        <view class='right-box'>
+          <view class='box-left'>1100元</view>
+          <view class='d-value-right'>
+            <text class='jian'>-</text>
+            <text class='text'>1</text>
+            <text class='jia'>+</text>
+          </view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+ 
+</view>
+<view class='c-bottom'>
+  <view class='c-bottom-left'>
+     <icon type='success' size='15'></icon>
+      <text>化妆品</text>
+  </view>
+  <view class='c-bottom-right'>
+    <text>合计：1100元</text>
+    <button bindtap='Goyes'>结算</button>
+  </view>
+</view>

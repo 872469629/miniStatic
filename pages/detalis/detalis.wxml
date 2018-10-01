@@ -1,0 +1,80 @@
+<view>
+  <view class='d-banner'>
+    <swiper 
+        indicator-dots="{{indicatorDots}}"
+        indicator-color="rgba(0, 0, 0, .3)"
+        interval="{{interval}}"
+        indicator-active-color="#ebebeb"
+        autoplay="{{autoplay}}"
+        duration="{{duration}}"
+        circular="{{circular}}"
+      >
+      <block wx:for="{{bannerItem}}">
+        <swiper-item >
+          <image src='{{item}}' class="slide-image"></image>
+        </swiper-item>
+      </block>
+    </swiper> 
+  </view>
+  <view class='d-title'>
+    <view class='title'>
+      <text>{{wsProduct.title}}</text>
+    </view>
+    <view class='con'>
+      <text class='price'>￥{{wsProduct.defaultReallyPrice}}</text>
+      <text class='value'>库存{{wsProduct.defaultNum}}</text>
+    </view>
+  </view>
+
+  <view class='d-box'>
+    <view class='d-box-one'>请选择商品规格尺寸</view>
+    <view class='d-box-1'>
+      <view class='d-box-1-c'>颜色分类</view>
+      <view class='d-box-1-box'>
+        <text class='t1'>黑色</text>
+        <text class='t2'>白色</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='d-xh'>
+      <view class='d-xh-c'>颜色分类</view>
+      <view class='d-xh-box'>
+        <text>28号</text>
+        <text>29号</text>
+        <text>30号</text>
+        <text>31号</text>
+        <text>32号</text>
+      </view>
+  </view>
+
+  <view class='d-value'>
+    <view class='d-value-left'>购买数量</view>
+    <view class='d-value-right'>
+     <text class='jian' data-alpha-beta="0" bindtap="changeNum">-</text>
+     <text class='text'>{{buynum}}</text>
+     <text class='jia' data-alpha-beta="1" bindtap="changeNum">+</text>
+    </view>
+  </view>
+
+  <view class='d-details'>
+    <view class='d-details-one'>
+      <text style='color:#6db9b5'>商品详情</text>
+      <text>商品参数</text>
+    </view>
+    <view class='d-details-two'>
+       <image src='http://zq2.51wdxh.com/jt-img/sp.png'></image>
+    </view>
+  </view>
+
+
+  <view class='d-bottom'>
+    <view class='d-bottom-left'>
+      合计：<text style='color:#6db9b5'>2000元</text>
+    </view>
+    <view class='d-bottom-right'>
+      <text class='goCart'>加入购物车</text>
+      <text class='goPay'>立即购买</text>
+    </view>
+  </view>
+</view>

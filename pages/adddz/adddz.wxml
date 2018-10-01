@@ -1,0 +1,56 @@
+<view>
+  <view class='adddz'>
+    <view class='adddz-box'>
+      <view class='addz-box-1'>
+        <view class='left'>
+          <text>收货人</text>
+        </view>
+        <view class='right'>
+          <text>张三</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='adddz-box'>
+      <view class='addz-box-1'>
+        <view class='left'>
+          <text>联系电话</text>
+        </view>
+        <view class='right'>
+          <text>151123456789</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='adddz-box'>
+      <view class='addz-box-1'>
+        <view class='left'>
+          <text>所在地区</text>
+        </view>
+        <view class='right'>
+          <text>浙江省温州市温州大道</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='adddz-box'>
+      <view class='addz-box-1'>
+        <view class='left'>
+          <text>街道</text>
+        </view>
+        <view class='right'>
+          <text>温州大道128号4号楼5001室</text>
+        </view>
+      </view>
+    </view>
+    
+
+    <view class='adddz-box textarea'>
+      <textarea placeholder='输入详细地址'></textarea>
+    </view>
+
+    <button>保存</button>
+
+
+  </view>
+</view>

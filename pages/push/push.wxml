@@ -1,0 +1,236 @@
+<!--pages/time/time.wxml-->
+<view>
+  <view class='team-one'>
+    <text class='cj'>推荐奖金</text>
+    <text class='pr'>￥3000.00</text>
+  </view>
+  <view class='team-two'>
+    <view class='one'>
+      <text class='left'>推荐分销商佣金</text>
+      <view class='right'>
+        <text class="{{TeamIndex == 0 ?'on':''}}" data-index="0" bindtap='qh'>一级</text>
+        <text class="{{TeamIndex == 1 ?'on':''}}" data-index="1" bindtap='qh'>二级</text>
+        <text class="{{TeamIndex == 2 ?'on':''}}" data-index="2" bindtap='qh'>三级</text>
+      </view>
+    </view>
+    <view class='two'>
+      <view wx:if="{{TeamIndex == 0}}">
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img4.imgtn.bdimg.com/it/u=2376009099,602665497&fm=214&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人一号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥1500</text>
+          </view>
+        </view>
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img4.imgtn.bdimg.com/it/u=2376009099,602665497&fm=214&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+             <text class='t1'>我的合伙人一号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥1500</text>
+          </view>
+        </view>
+
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img4.imgtn.bdimg.com/it/u=2376009099,602665497&fm=214&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人一号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥1500</text>
+          </view>
+        </view>
+
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img4.imgtn.bdimg.com/it/u=2376009099,602665497&fm=214&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人一号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥1500</text>
+          </view>
+        </view>
+      </view>
+      <view wx:if="{{TeamIndex == 1}}">
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img4.imgtn.bdimg.com/it/u=1652165991,1699659763&fm=200&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人二号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥2500</text>
+          </view>
+        </view>
+
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img4.imgtn.bdimg.com/it/u=1652165991,1699659763&fm=200&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人二号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥2500</text>
+          </view>
+        </view>
+
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img4.imgtn.bdimg.com/it/u=1652165991,1699659763&fm=200&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人二号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥2500</text>
+          </view>
+        </view>
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img4.imgtn.bdimg.com/it/u=1652165991,1699659763&fm=200&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人二号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥2500</text>
+          </view>
+        </view>
+
+      </view>
+      <view wx:if="{{TeamIndex == 2}}">
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img1.imgtn.bdimg.com/it/u=3362427573,2914693748&fm=27&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人三号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥3500</text>
+          </view>
+        </view>
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img1.imgtn.bdimg.com/it/u=3362427573,2914693748&fm=27&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人三号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥3500</text>
+          </view>
+        </view>
+
+
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img1.imgtn.bdimg.com/it/u=3362427573,2914693748&fm=27&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人三号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥3500</text>
+          </view>
+        </view>
+
+
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img1.imgtn.bdimg.com/it/u=3362427573,2914693748&fm=27&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人三号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥3500</text>
+          </view>
+        </view>
+
+
+
+        <view class='two-box'>
+          <view class='two-box-left'>
+            <image src='http://img1.imgtn.bdimg.com/it/u=3362427573,2914693748&fm=27&gp=0.jpg'></image>
+          </view>
+          <view class='two-box-con'>
+            <text class='t1'>我的合伙人三号</text>
+            <text class='t2'>ID：125623</text>
+          </view>
+
+
+          <view class='two-box-right'>
+            <text class='value'>奖金</text>
+            <text class='price'>￥3500</text>
+          </view>
+        </view>
+
+
+
+      </view>
+    </view>
+  </view>
+</view>

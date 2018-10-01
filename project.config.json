@@ -1,0 +1,209 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.3",
+	"appid": "wx22ab36e9b638fb12",
+	"projectname": "miniStatic",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 27,
+			"list": [
+				{
+					"id": 0,
+					"name": "cart",
+					"pathName": "pages/push/push",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "cart1",
+					"pathName": "pages/team/team",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "cart2",
+					"pathName": "pages/bonus/bonus",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tx",
+					"pathName": "pages/tx/tx",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "add",
+					"pathName": "pages/add/add",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "list",
+					"pathName": "pages/list/list",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "fx",
+					"pathName": "pages/fx/fx",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "zc",
+					"pathName": "pages/zc/zc",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "adddz",
+					"pathName": "pages/adddz/adddz",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "g-cart",
+					"pathName": "pages/cart/cart",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes",
+					"pathName": "pages/yes/yes",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes",
+					"pathName": "pages/adddz/adddz",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/yes/yes",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/home/home",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/yes/yes",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/fxdd/fxdd",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/cart/cart",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/fxdd/fxdd",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/team/team",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/yes/yes",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/cart/cart",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes2",
+					"pathName": "pages/yes/yes",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes",
+					"pathName": "pages/yes/yes",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "yes",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "my",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "home",
+					"pathName": "pages/home/home",
+					"query": ""
+				}
+			]
+		}
+	}
+}

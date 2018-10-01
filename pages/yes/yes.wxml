@@ -1,0 +1,49 @@
+<view>
+  <view class='yes-1'>
+    <view class='yes-1-one'>
+      <view class='left'>收货人：张大大</view>
+      <view class='right'>收货人：151123456789</view>
+    </view>
+    <view class='yes-1-two' bindtap='Goadddz'>
+      <view class='two-left'>
+        <image src='http://zq2.51wdxh.com/jt-img/dz.png'></image>
+      </view>
+      <view class='two-right'>
+        收货地址：浙江省温州市龙湾区万达广场8号楼B座2单元22层2006号
+      </view>
+    </view>
+  </view>
+  <view class='yes-2'>
+    <view class='yes-2-h3'>保健品</view>
+    <view class='home-box2-2' bindtap='GoDetalis'>
+      <image class='image' src='http://zq2.51wdxh.com/jt-img/sp.png'></image>
+      <view class='home-box'>
+        <view class='title-1'>
+          <text class='title'>军太岁光气垫BB霜</text>
+        </view>
+        <view class='con-1'>
+          <text class='con'>非常好用的气垫BB霜</text>
+        </view>
+        <view class='price-1'>
+          <text class='price'>1100元</text>
+          <text class='x'>x 1</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='yes-2-liuyan'>
+      <text>买家留言：</text>
+      <input placeholder='对本次交易的留言备注'></input>
+    </view>
+
+    <view class='yes-2-value'>
+      <text>共一件商品，小计：<text style='color:#df817c'>¥1100.00</text></text>
+    </view>
+  </view>
+  <view class='c-bottom'>
+    <view class='c-bottom-right'>
+      <text>合计：1100元</text>
+      <button>结算</button>
+    </view>
+  </view>
+</view>

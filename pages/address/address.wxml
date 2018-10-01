@@ -1,0 +1,28 @@
+<view>
+  <view class='address-box'>
+    <view class='address-box-1'>
+      <text class='left'>张大大</text>
+      <text class='right'>15255460858</text>
+    </view>
+
+    <view class='address-box-2'>
+      <text>江苏省南京市浦口区多多鱼技术有限公司,专注于企业站点、小程序开发、logo设计有需要加微信fwk1203</text>
+    </view>
+
+    <view class='address-box-3'>
+      <view class='address-left'>
+       <icon type="success" size="20"/>
+       <text>设置为默认地址</text>
+      </view>
+      <view class='address-right'>
+        <text class='xg' bindtap='GoAddz'>修改</text>
+        <text class='del'>删除</text>
+      </view>
+    </view>
+    
+  </view>
+
+  <view class='btn' bindtap='GoAddz'>
+    <text>新增地址</text>
+  </view>
+</view>

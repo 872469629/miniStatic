@@ -1,0 +1,138 @@
+/* pages/yes/yes.wxss */
+page{
+  background: #f6f5f5
+}
+.yes-1{
+  width: 100%;
+  height: 240rpx;
+  background: white
+}
+.yes-1-one{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx
+}
+.left{
+  float: left;
+  margin-left: 110rpx
+}
+.right{
+  float: right;
+  margin-right: 20rpx
+}
+.two-left image{
+  width: 35rpx;
+  height: 40rpx;
+  float: left;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  margin-top: 15rpx
+}
+.two-right{
+  text-align: left;
+  font-size: 30rpx;
+  width: 700rpx;
+  margin-left: 10rpx
+}
+
+.yes-2{
+  width: 100%;
+  background: white;
+  margin-top: 20rpx
+}
+
+.home-box2-2{
+  width: 100%;
+  height: 290rpx;
+  border-bottom: 1px solid #f6f5f5;
+}
+.image{
+  width: 300rpx;
+  height: 220rpx;
+  float: left;
+  margin: 30rpx 30rpx
+}
+.title-1{
+  padding-top: 20rpx
+}
+.title{
+  font-size: 35rpx;
+  margin-top: 20rpx
+}
+.con-1{
+  padding-bottom: 50rpx
+}
+.con{
+  color: #b4b4b4;
+ font-size: 30rpx;
+}
+.price{
+  color: #df817c;
+  font-size: 15px;
+  float: left
+}
+.x{
+  float: right;
+  margin-right: 20rpx;
+  font-size: 15px;
+  color: #ccc
+}
+.yes-2-h3{
+  width: 100%;
+  height: 60rpx;
+  line-height: 80rpx;
+  font-size: 33rpx;
+  padding-left: 30rpx
+}
+.yes-2-value{
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 30rpx
+}
+.yes-2-value text{
+  float: right;
+  margin-right: 10rpx
+}
+.yes-2-liuyan{
+  width: 100%;
+}
+.yes-2-liuyan text{
+  font-size: 30rpx;
+  float: left;
+  padding-left: 30rpx;
+  padding-top: 7rpx
+}
+.yes-2-liuyan input{
+  font-size: 30rpx;
+  margin-top: 30rpx
+}
+
+.c-bottom{
+  width: 100%;
+  height: 120rpx;
+  background: white;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom:0
+}
+.c-bottom-right{
+  float: right
+}
+.c-bottom-right text{
+  float: left;
+  line-height: 120rpx;
+  font-size: 33rpx;
+  padding-right: 20rpx;
+}
+.c-bottom-right button{
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  background:#df817c;
+  color: white;
+  margin-top: 30rpx;
+  margin-right: 15rpx
+}

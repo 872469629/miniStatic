@@ -1,0 +1,157 @@
+page{
+  background: #f6f5f5
+}
+.cart{
+  width: 95%;
+  margin: auto
+}
+.cart-box{
+  width: 100%;
+  height: 300rpx;
+  background: white;
+  border-radius: 9px;
+  margin:20rpx auto
+}
+.cart-box-1{
+  width: 100%;
+  height: 70rpx;
+  border-bottom: 1px solid #f6f5f5
+}
+.one-left{
+  float: left;
+ display: flex;
+}
+.one-left icon{
+  /* margin: 20rpx 20rpx; */
+  float: left;
+}
+.icon-one{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx
+}
+.one-left text{
+  font-size: 28rpx;
+  padding-top: 17rpx;
+  display: block
+}
+.one-right{
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 7rpx
+}
+.one-right image{
+  width: 60rpx;
+  height: 60rpx;
+
+}
+.cart-box-2{
+  
+}
+.cart-box-2 icon{
+  line-height: 30rpx;
+}
+.cart-box-2 image{
+  width: 230rpx;
+  height: 180rpx;
+  margin-top: 25rpx;
+  margin-right: 20rpx
+}
+.left{
+  float: left
+}
+.left icon{
+  position: absolute;
+  top: 180rpx;
+  left: 35rpx
+}
+.left image{
+  margin-left: 65rpx
+}
+.title{
+  font-size: 30rpx;
+  display: block;
+  padding-top: 20rpx;
+}
+.con{
+  font-size: 25rpx
+}
+
+.box-left{
+  float: left;
+  color: #6db9b5;
+  font-size: 30rpx;
+  padding-top: 20rpx
+}
+.d-value-right{
+  float: right;
+  margin: 20rpx 40rpx
+}
+.jia{
+   width: 30rpx;
+  height: 30rpx;
+  line-height: 25rpx;
+  text-align: center;
+  border: 1px solid #df817c;
+  float: left;
+  background: #df817c;
+  color: white;
+  font-size: 23rpx
+}
+.text{
+  width: 80rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  /* border: 1px solid #ccc; */
+  float: left;
+  font-size: 30rpx;
+  
+}
+.jian{
+  width: 30rpx;
+  height: 30rpx;
+  line-height: 25rpx;
+  text-align: center;
+  border: 1px solid #ccc;
+  float: left;
+  font-size: 23rpx
+ 
+}
+.c-bottom{
+  width: 100%;
+  height: 130rpx;
+  background: white;
+  position: fixed;
+  bottom:0
+}
+.c-bottom-left{
+  float: left;
+  font-size: 33rpx;
+}
+.c-bottom-left text{
+  padding-left: 20rpx;
+  line-height: 130rpx;
+}
+.c-bottom-left icon{
+  margin-left: 20rpx
+}
+.c-bottom-right{
+  float: right
+}
+.c-bottom-right text{
+  float: left;
+  line-height: 130rpx;
+  font-size: 33rpx;
+  padding-right: 30rpx;
+}
+.c-bottom-right button{
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  background:#df817c;
+  color: white;
+  margin-top: 35rpx;
+  margin-right: 15rpx
+}
